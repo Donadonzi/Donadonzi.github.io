@@ -1,0 +1,45 @@
+.wireframes {	
+	@include componentColPattern;
+	height: 100rem;
+	grid-template-rows: 30% 70%;
+	justify-items: center;
+	margin-bottom: $l-desktop;
+
+	@media screen and (max-width: 768px) {
+		height: 120rem;
+	}
+
+	&__text {
+		@media screen and (max-width: 768px) {
+			display: none;
+		}
+	}
+	
+
+	&--top {
+		grid-row: 1 / 2;
+		grid-column: 1 / -1;
+		width: 50%;
+		text-align: center;
+		margin-bottom: $m-desktop;
+		
+	}
+
+	&--bottom {
+		grid-row: 2 / 3;
+		grid-column: 1 / -1;
+		width: 100%;
+		height: 90%;
+	}
+
+	&__gallery {
+		width: 70%;
+		height: 100%;
+
+		@media screen and (max-width: 768px) {
+		width: 50%;
+		height: auto;
+	  }
+	}
+
+}
