@@ -58,7 +58,7 @@ body {
 
 @media screen and (max-width: 768px) {
 	.header a {
-		color: white;
+		color: white !important;
 	}
 }
 
