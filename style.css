@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	/* padding: 10rem; */
+	color: teal;
+	
+}
+
+#bgVideo {
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+	min-height: 100%;
+	
+}
+
+#main-container {
+	margin: 10rem auto;
+	width: 40%;
+	background: rgba(0, 0, 0, 0.7);
+	/* color: white; */
+}
+
+.header {
+	color: white !important;
+}
+
+.header a {
+	color: #296e2d;
+}
+
